@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import image from '$lib/resources/root/image.png';
+</script>
+
+<div class="flex h-screen flex-col items-center justify-center">
+	<img class="w-full" src={image} />
+	<p>no but i can get you this</p>
+</div>
